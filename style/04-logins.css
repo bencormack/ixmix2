@@ -1,0 +1,92 @@
+.socialBtn {
+    position:absolute;
+    height:100%;
+    text-align:center;
+    width:calc(100% / 3);
+    color:#FFF;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.socialBtn img {
+    position:absolute;
+    top:40%;
+    transform:translate(-50%, -50%);
+}
+.socialBtn h2 {
+    position:absolute; 
+    width:80%;
+    top:70%; left:50%;
+    transform:translate(-50%, -50%);
+}
+.socialBtn form {
+    position:absolute; 
+    width:90%; top:70%; left:50%;
+    transform:translate(-50%, -50%);
+    display:none;
+}
+.socialBtn form * {
+    margin:10px;
+    border:none;
+    border-radius:5px;
+    background:#FFF;
+    color:#777;
+    padding:10px;
+    font-size:25px;
+    width:25%;
+    min-width:100px;
+}
+.socialBtn form input[type=submit]{
+    background:rgba(255, 255, 255, 0);
+    color:#FFF;
+}
+#twitterBtn { background:#7CC7FF; left:0; }
+#linkedinBtn { background:#325C80; left:calc(100% / 3); }
+#emailBtn { background:#4178BE; right:0; }
+
+#errorPopup {
+    position:absolute;
+    width:100%; height:100%;
+    background:rgba(0, 0, 0, .75);
+    color:#FFF;
+    cursor:pointer;
+}
+
+#errorPopup p {
+    position:absolute;
+    width:100%;
+    top:50%;
+    transform:translate(0, -50%);
+    text-align:center;
+    font-size:30px;
+}
+
+/* -------------------- MEDIA QUERIES -------------------- */
+
+@media only screen and (max-width: 1000px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #topPanel {
+        font-size:30px;
+    }
+    
+    .socialBtn {
+        position:relative;
+        float:none;
+        width:100%;
+        height:300px;
+    }
+    
+    #linkedinBtn { left:0; }
+    
+    #emailBtn form {
+        top:60%;
+    }
+    
+    .socialBtn form * {
+        width:80%;
+    }
+}

@@ -1,0 +1,39 @@
+#topPanel p {
+    font-size:40px;
+}
+.socialBtn {
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.socialBtn p {
+    font-size:20px;
+    text-align:left;
+    padding:8%;
+}
+
+#celebrititesBtn {
+    left:0;
+    background:url('../images/celebrityBtn.jpg') no-repeat center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+#ibmIxBtn {
+    left:calc(100% / 3);
+    background:url('../images/ibmIxBtn.jpg') no-repeat center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+#ixExperiencesBtn {
+    right:0;
+    background:url('../images/ixExperiencesBtn.jpg') no-repeat center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}

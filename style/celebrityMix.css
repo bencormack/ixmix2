@@ -1,0 +1,67 @@
+#topPanel p {
+    font-size:40px;
+}
+.mixBtn {
+    position:absolute;
+    height:100%;
+    text-align:center;
+    width:calc(100% / 3);
+    color:#FFF;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.arrow {
+    position:absolute;
+    opacity:.7;
+    width:30px;
+    top:50%;
+}
+#imageCarousel {
+    position:relative;
+}
+.leftArrow {
+    transform:translate(-200%, -50%);
+}
+.rightArrow {
+    transform:translate(100%, -50%);
+}
+
+.mixBtn p {
+    padding:10px;
+}
+
+#ibmIxBtn p {
+    color:#000;
+}
+
+#celebArrow {
+    position:absolute;
+    width:0px; height:100px;
+    left:0px; top:10%;
+}
+
+#ixArrow {
+    position:absolute;
+    width:0px; height:100px;
+    right:0px; bottom:10%;
+}
+
+#celebrititesBtn {
+    left:0;
+    background:#008571;
+}
+#ibmIxBtn {
+    left:calc(100% / 3);
+    background:#A7FAE6;
+}
+#ixExperiencesBtn {
+    right:0;
+    background:#323232;
+}
+
+.personImage {
+    width:100px; height:100px;
+    border:3px white solid;
+    border-radius:50px;
+}

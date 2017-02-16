@@ -1,0 +1,89 @@
+#topPanel {
+    height:calc(75px + 10%);
+    background:#FFF;
+}
+
+#simplyChoose {
+    position:absolute;
+    width:100%;
+    bottom:10px;
+    color:#008571;
+    text-align:center;
+    font-size:20px;
+}
+
+#pleaseWork {
+    position:absolute;
+    top:calc(75px + 10%);
+    width:100%; 
+    height:calc(90% - 275px);
+    cursor:pointer;
+}
+
+.pleaseWorkBtn {
+    position:absolute;
+    background:#F00;
+    width:calc(100% / 3);
+    height:100%; min-height:100%;
+    overflow:scroll;
+}
+
+.pleaseWorkBtn p {
+    color:#FFF;
+    font-size:25px;
+    padding:25px;
+}
+
+#sophieBtn {
+    background:#00b4a0;
+}
+
+#janetBtn {
+    background:#008571;
+    left:calc(100% / 3);
+}
+
+#jonasBtn {
+    background:#006d5d;
+    right:0;
+}
+
+#ownPortrait {
+    position:fixed;
+    bottom:0px;
+    width:100%; height:200px;
+    background:#005448;
+    color:#FFF;
+}
+
+#ownPortraitForm {
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(calc(-50% - 10px), calc(-50% - 10px));
+    width:40%; height:100px;
+}
+
+#ownPortraitFormInput {
+    background:#FFF;
+    border-radius:5px;
+    width:100%; height:100%;
+    border:none;
+    font-size:20px;
+    resize:none;
+    padding:10px;
+}
+
+form { opacity:1; }
+
+#wordCountP {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    font-size:20px;
+}
+
+#writeYourOwn {
+    position:absolute;
+    top:10px;
+    left:10px;
+}

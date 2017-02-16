@@ -1,0 +1,44 @@
+#circleCanvas {
+    position:absolute;
+    top:calc(75px + ((100% - 75px) / 2));
+    left:50%;
+    opacity:0;
+}
+
+#renagadeText {
+    position:absolute;
+    top:calc(75px + ((100% - 75px) / 2));
+    left:10%;
+    transform:translate(0, -200%);
+    color:#00b4a0;
+    font-size:40px;
+}
+
+#realistText {
+    position:absolute;
+    top:calc(75px + ((100% - 75px) / 2));
+    right:10%;
+    transform:translate(0, 100%);
+    color:#a7fae6;
+    font-size:40px;
+}
+
+.renRealPercentageText {
+    font-size:60px;
+}
+
+@media only screen and (max-width: 600px) {
+    #renagadeText {
+        font-size:25px;
+        transform:translate(0, -240%);
+    }
+    
+    #realistText {
+        font-size:25px;
+        transform:translate(0, 140%);
+    }
+
+    .renRealPercentageText {
+        font-size:50px;
+    }
+}

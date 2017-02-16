@@ -1,0 +1,88 @@
+#topPanel p {
+    font-size:40px;
+}
+.socialBtn {
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.socialBtn p {
+    font-size:20px;
+    text-align:left;
+    padding:25px;
+}
+
+#celebrititesBtn {
+    left:0;
+    background:url('../images/celebrityBtn.jpg') no-repeat center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+#ibmIxBtn {
+    left:calc(100% / 3);
+    background:url('../images/ibmIxBtn.jpg') no-repeat center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+#ixExperiencesBtn {
+    right:0;
+    background:url('../images/ixExperiencesBtn.jpg') no-repeat center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.socialBtn {
+    position:absolute;
+    height:100%;
+    text-align:center;
+    width:calc(100% / 3);
+    color:#FFF;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.socialBtn img {
+    position:absolute;
+    top:40%;
+    transform:translate(-50%, -50%);
+}
+.socialBtn h2 {
+    position:absolute; 
+    width:80%;
+    top:70%; left:50%;
+    transform:translate(-50%, -50%);
+}
+.socialBtn form {
+    position:absolute; 
+    width:90%; top:70%; left:50%;
+    transform:translate(-50%, -50%);
+    display:none;
+}
+
+/* -------------------- MEDIA QUERIES -------------------- */
+
+@media only screen and (max-width: 1000px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #topPanel p {
+        font-size:25px;
+        width:75%;
+    }
+    
+    .socialBtn {
+        position:relative;
+        width:100%; max-width:100%;
+        height:70%;
+        left:0; right:0;
+    }
+}

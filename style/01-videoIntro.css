@@ -1,0 +1,14 @@
+.renegadeText {
+    position:absolute;
+    width:100%;
+    top:50%;
+    transform:translate(0, -50%);
+    text-align:center;
+    font-size:75px;
+    color:#FFF;
+    opacity:0;
+}
+
+header {
+    top:-75px;
+}
